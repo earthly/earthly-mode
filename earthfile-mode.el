@@ -19,6 +19,7 @@
   (rx line-start
       (* space)
       (or "FROM"
+	  "AS"
 	  "RUN"
 	  "COPY"
 	  "ARG"
